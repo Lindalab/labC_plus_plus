@@ -4,7 +4,7 @@
 using namespace std;
 //include <cstudio>
 
-//global vars and methods
+//global vars and functions
 const int N = 101;
 int **A = 0;
 random_device predict;
@@ -68,6 +68,11 @@ void garbageCollect()
   printf("Ready.\n");
 }
 
+/**
+ * @populating array with random values
+ * @function rand()
+ * @ do while loop
+ */
 int **populateArray(int N)
 {
   int populant = 20000;
